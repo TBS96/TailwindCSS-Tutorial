@@ -1,12 +1,12 @@
 # TailwindCSS setup with `Vite`, `PostCSS`, `AutoPrefixer`:
 
-## 0. Setup `npm`:
+## 1. Setup `npm`:
 ```bash
 npm init -y
 ```
 <br>
 
-## 1. Install & initialize:
+## 2. Install & initialize:
 ```bash
 npm install -D tailwindcss postcss autoprefixer vite
 ```
@@ -15,13 +15,13 @@ npx tailwindcss init -p
 ```
 <br>
 
-## 2. Open `tailwind.config.js` file & set content as ALL (*):
+## 3. Open `tailwind.config.js` file & set content as ALL (*):
 ```bash
 content: ['*']
 ```
 <br>
 
-## 3. Create folder `CSS` & a file within it, as `main.css` & add the Tailwind directives:
+## 4. Create folder `CSS` & a file within it, as `main.css` & add the Tailwind directives:
 ```bash
 @tailwind base;
 @tailwind components;
@@ -29,13 +29,15 @@ content: ['*']
 ```
 <br>
 
-## 4. Open `package.json` and set the below, under scripts:
+## 5. Link `CSS/main.css` with `index.html`
+
+## 6. Open `package.json` and set the below, under scripts:
 ```bash
 "start": "vite"
 ```
 <br>
 
-## 5. Open terminal & run:
+## 7. Open terminal & run:
 ```bash
 npm run start
 ```
