@@ -31,7 +31,7 @@ content: ['*']
 
 ## 4. Open `package.json` and set the below, under scripts:
 ```bash
-"dev": "vite",
+"start": "vite",
 ```
 <br>
 
