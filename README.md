@@ -1,4 +1,4 @@
-# `TailwindCSS` setup with `Vite`, `PostCSS`, `AutoPrefixer`:
+# TailwindCSS setup with `Vite`, `PostCSS`, `AutoPrefixer`:
 
 ## 0. Setup `npm`:
 ```bash
