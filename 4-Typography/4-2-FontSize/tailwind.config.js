@@ -3,7 +3,7 @@ module.exports = {
   content: ['*'],
   theme: {
     // fontSize: {
-    //   'prantik': '100px'
+    //   'prantik': ['100px']
     // },
     extend: {},
   },
