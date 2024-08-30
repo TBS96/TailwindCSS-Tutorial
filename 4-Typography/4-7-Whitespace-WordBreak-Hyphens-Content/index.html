@@ -81,5 +81,20 @@
     </div>
     <hr>
 
+    <h1 class="text-2xl text-center">Content</h1>
+    <hr>
+    <div before="Hello World" class="before:content-[attr(before)]">
+        wallah
+    </div>
+    <div class="before:content-['Hello_world']">
+        wallah
+    </div>
+    <div class="before:content-['Hello\_world']">
+        wallah
+    </div>
+    <div class="before:content-['Not_hovering'] hover:before:content-['Hovering']"></div>
+    <div class="before:content-['Mobile'] md:before:content-['Tablet'] lg:before:content-['Desktop']"></div>
+    <hr>
+
 </body>
 </html>
