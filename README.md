@@ -30,6 +30,9 @@ content: ['*']
 <br>
 
 ## 5. Link `CSS/main.css` with `index.html`
+```bash
+<link rel="stylesheet" href="css/main.css">
+```
 <br>
 
 ## 6. Open `package.json` and set the below, under scripts:
