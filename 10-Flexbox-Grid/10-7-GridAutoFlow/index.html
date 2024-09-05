@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox & Grid | Grid Auto Flow</title>
+    <title>Flexbox & Grid | Grid - AutoFlow AutoColumns AutoRows Gap</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -32,5 +32,27 @@
     </div>
     <hr><br><br>
 
+    <h1 class="text-center text-2xl">grid-flow-row-dense</h1>
+    <hr>
+    <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2">
+        <div class="col-span-2 bg-red-600 py-20 text-center text-white">01</div>
+        <div class="col-span-2 bg-red-600 py-20 text-center text-white">02</div>
+        <div class="bg-red-600 py-20 text-center text-white">03</div>
+        <div class="bg-red-600 py-20 text-center text-white">04</div>
+        <div class="bg-red-600 py-20 text-center text-white">05</div>
+    </div>
+
+    <h1 class="text-center text-2xl">auto-cols-max</h1>
+    <hr>
+    <div class="grid auto-cols-max grid-cols-3 grid-rows-3 gap-2">
+        <div class="col-span-2 bg-red-600 py-20 text-center text-white">01</div>
+        <div class="col-span-2 bg-red-600 py-20 text-center text-white">02</div>
+        <div class="bg-red-600 py-20 text-center text-white">03</div>
+        <div class="bg-red-600 py-20 text-center text-white">04</div>
+        <div class="bg-red-600 py-20 text-center text-white">05</div>
+    </div>
+
 </body>
 </html>
+
+<!-- AutoFlow AutoColumns AutoRows not used much -->
