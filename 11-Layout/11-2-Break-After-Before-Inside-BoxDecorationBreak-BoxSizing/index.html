@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout | Break: After - Before - Inside | Box Decoration Break</title>
+    <title>Layout | Break: After - Before - Inside | Box Decoration Break | Box Sizing</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -95,11 +95,15 @@
     <hr>
 
     <div class="size-32 p-8 border-4 box-content">
-        Calculates element size by excluding borders and padding: box-content
+        <!-- Calculates element size(width+height) by excluding borders and padding(works as default): box-content -->
+         Lorem, ipsum.
     </div>
 
+    <br>
+
     <div class="size-32 p-8 border-4 box-border">
-        Calculates element size by including borders and padding: box-border
+        <!-- Calculates element size(width+height) by including borders and padding: box-border -->
+         Lorem, ipsum.
     </div>
 
 </body>
