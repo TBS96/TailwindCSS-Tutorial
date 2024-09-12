@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables | Border Collapse</title>
+    <title>Tables | Border Collapse | Border Spacing</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -44,6 +44,42 @@
     <hr>
 
     <table class="border border-separate hover:border-collapse border-red-800 my-10 mx-10">
+        <thead>
+            <tr>
+                <th class="border border-red-800">Phone</th>
+                <th class="border border-red-800">Name</th>
+                <th class="border border-red-800">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr><br>
+
+
+    <h1 class="text-center text-5xl text-blue-600">Border Spacing</h1>
+    <hr>
+
+    <h1 class="text-center text-2xl text-blue-600">border-spacing-* , border-spacing-x-*, border-spacing-y-*</h1>
+    <hr>
+
+    <table class="border border-separate border-spacing-x-5 border-spacing-y-16 border-red-800 my-10 mx-10">
         <thead>
             <tr>
                 <th class="border border-red-800">Phone</th>
