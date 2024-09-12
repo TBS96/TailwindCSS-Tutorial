@@ -3,15 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
+    <title>Tables | Border Collapse</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <h1 class="text-center text-5xl text-blue-600"></h1>
+    <h1 class="text-center text-5xl text-blue-600">Border Collapse(Default in TailwindCSS)</h1>
     <hr>
 
-    <h1 class="text-2xl"></h1>
+    <table class="border border-collapse border-red-800 my-10 mx-10">
+        <thead>
+            <tr>
+                <th class="border border-red-800">Phone</th>
+                <th class="border border-red-800">Name</th>
+                <th class="border border-red-800">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr><br>
+
+    <h1 class="text-center text-5xl text-blue-600">Border Separate</h1>
+    <hr>
+
+    <table class="border border-separate hover:border-collapse border-red-800 my-10 mx-10">
+        <thead>
+            <tr>
+                <th class="border border-red-800">Phone</th>
+                <th class="border border-red-800">Name</th>
+                <th class="border border-red-800">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+            <tr>
+                <td class="border border-red-800">data - 1</td>
+                <td class="border border-red-800">data - 2</td>
+                <td class="border border-red-800">data - 3</td>
+            </tr>
+        </tbody>
+    </table>
+
     <hr><br>
     
 </body>
