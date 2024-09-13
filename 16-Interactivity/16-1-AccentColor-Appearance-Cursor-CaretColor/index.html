@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactivity | AccentColor Appearance Cursors CaretColor</title>
+    <title>Interactivity | AccentColor Appearance Cursors CaretColor PointerEvents</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -54,6 +54,40 @@
 
     <div class="mt-10 ms-10">
         <textarea class="caret-red-600" name="" id=""></textarea>
+    </div>
+
+    <hr><br>
+
+
+    <h1 class="text-center text-5xl text-blue-600">Pointer Events</h1>
+    <hr>
+
+    <h1 class="text-2xl text-blue-600">pointer-events-auto</h1>
+    <hr>
+
+    <div class="relative">
+        <div class="absolute left-40 pointer-events-auto">
+            <svg class="absolute text-slate-400 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+        <input type="text" placeholder="Search" class="border-2 border-red-700">
+    </div>
+
+    <h1 class="text-2xl text-blue-600">pointer-events-none</h1>
+    <hr>
+
+    <div class="relative">
+        <div class="absolute left-40 pointer-events-none">
+            <svg class="absolute text-slate-400 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+        <input type="text" placeholder="Search" class="border-2 border-red-700">
     </div>
 
     <hr><br>
