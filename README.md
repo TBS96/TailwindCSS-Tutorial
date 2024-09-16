@@ -45,3 +45,33 @@ content: ['*']
 ```bash
 npm run start
 ```
+<br>
+
+# To install & use `daisyUI`:
+
+## 1. Follow upto `5th` step from above.
+<br>
+
+## 2. Install `daisyUI` as a Node package:
+```bash
+npm i -D daisyui@latest
+```
+<br>
+
+## 3. Add `daisyUI` to `tailwind.config.js` => `module.exports` => `plugins[]`:
+```bash
+require('daisyui')
+```
+<br>
+
+## 4. Goto `package.json` => "scripts:{} & add the following:"
+```bash
+"dev": "vite"
+```
+<br>
+
+## 5. Open terminal & run:
+```bash
+npm run dev
+```
+<br>
