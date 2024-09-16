@@ -40,3 +40,13 @@
         @apply text-xs
     }
 }
+
+/* creating custom classes that are not present in tailwind */
+@layer utilities{
+    .small-text{
+        font-size: 30px;
+    }
+    .card-text{
+        color: red;
+    }
+}
