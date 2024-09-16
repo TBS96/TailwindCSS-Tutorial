@@ -65,7 +65,7 @@ require('daisyui')
 ```
 <br>
 
-## 4. Goto `package.json` => "scripts:{} & add the following:"
+## 4. Goto `package.json` => `"scripts":{}` & add the following:
 ```bash
 "dev": "vite"
 ```
@@ -80,7 +80,7 @@ npm run dev
 
 # To build for production:
 
-## Goto package.json => "scripts:{} & add the following:"
+## Goto `package.json` => `"scripts":{}` & add the following:
 ```bash
 "build": "vite build"
 ```
