@@ -47,6 +47,7 @@ npm run start
 ```
 <br>
 
+
 # To install & use `daisyUI`:
 
 ## 1. Follow upto `5th` step from above.
@@ -75,3 +76,11 @@ require('daisyui')
 npm run dev
 ```
 <br>
+
+
+# To build for production:
+
+## Goto package.json => "scripts:{} & add the following:"
+```bash
+"build": "vite build"
+```
